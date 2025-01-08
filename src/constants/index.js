@@ -276,8 +276,8 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "1 to 100 Bootcamp",
-    description: "Access to 1 to 100 Bootcamp",
+    title: "0 to 100 Bootcamp",
+    description: "Access to 0 to 100 Bootcamp",
     price: "1999",
     features: [
       "Live Lectures",
@@ -288,8 +288,8 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "0 to 100 Bootcamp",
-    description: "Access to 0 to 100 Bootcamp",
+    title: "1 to 100 Bootcamp",
+    description: "Access to 1 to 100 Bootcamp",
     price: "1299",
     features: [
       "Live Lectures",

@@ -9,14 +9,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="p-4 lg:py-2 overflow-hidden">
-        <Header />
-        <Hero />
-        <CourseItenray />
-        <Pricing />
-        <Testimonial />
-        <Footer />
-      </div>
+      <Hero />
+      <CourseItenray />
+      <Pricing />
+      <Testimonial />
+      <Footer />
     </>
   );
 }

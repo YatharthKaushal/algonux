@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +9,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body className={``}>
+        <div className="p-4 lg:py-2 overflow-hidden">
+          <Header />
+          <div className="mt-19">{children}</div>
+        </div>
+      </body>
     </html>
   );
 }

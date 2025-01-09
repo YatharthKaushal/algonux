@@ -184,7 +184,7 @@ export const fullCourseDetails = [
 ];
 
 export const collabText =
-  "HTML, CSS, JacaScript, NodeJS, ExpressJS, MongoDB, ReactJS, TailwindCSS";
+  "HTML, CSS, JavaScript, NodeJS, ExpressJS, MongoDB, ReactJS, TailwindCSS";
 
 export const collabContent = [
   {
@@ -337,7 +337,7 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Shurti Dev Tripathi",
+    title: "Shruti Dev Tripathi",
     text: "The group activities and discussions with classmates made learning so much more fun and interactive.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,

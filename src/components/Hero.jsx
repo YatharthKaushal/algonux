@@ -20,7 +20,8 @@ export default function Hero() {
       >
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-6 md-mb-20 lgmb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Learn &nbsp;MEARN Fullstack&nbsp;Web Development with {` `}
+            Learn &nbsp;MERN Fullstack&nbsp; &nbsp;Web Development&nbsp; with{" "}
+            {` `}
             <span className="inline-block relative text-color-5">Algonux </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-3 text-n-2 lg:mb8">

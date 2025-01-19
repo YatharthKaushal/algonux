@@ -10,10 +10,10 @@ import CustomParallax from "./CustomParallax";
 export default function Testimonial() {
   return (
     <Section id="features">
-      <div className="container relative z-2">
-        <Heading className="md:max-w-md lg:max-w-2xl" title="Previous Batch" />
+      <div className="container relative z-2 ">
+        <Heading className="md:max-w-md lg:max-w-2xl " title="Previous Batch" />
 
-        <div className="flex flex-wrap gap-10 mb-10">
+        <div className="flex flex-wrap gap-10 mb-10 mx-auto justify-evenly">
           {benefits.map((item, index) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] bg-slate300"
@@ -26,7 +26,7 @@ export default function Testimonial() {
                 mouseStrength={Math.random() * (0.03123 - 0.04123) + 0.02123}
                 scrollStrength={Math.random() * (0.03123 - 0.04123) + 0.02123}
               >
-                <div className="relative z-2 flex flex-col min-h-fit p-[2.4rem] pointer-events-none">
+                <div className="relative z-2 flex flex-col min-h-fit p-[2.4rem] pointer-events-none ">
                   <div className="flex items-center gap-4">
                     <Image
                       src={item.iconUrl}
@@ -55,7 +55,7 @@ export default function Testimonial() {
                   </div>
                 </div>
 
-                {item.light && <GradientLight />}
+                {item.light && <GradientLight opacity={100} />}
 
                 <div
                   className="absolute inset-0.5 rounded-3xl bg-n-8 border border-color-1"

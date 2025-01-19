@@ -20,3 +20,16 @@ export async function registerStudent({ ...data }) {
     return error;
   }
 }
+
+export async function sendInquiry({ ...data }) {
+  const fullname = data.fullname;
+  const email = data.email;
+  const message = data.message;
+  try {
+    await prisma.inquiry.create({
+      data: { fullname, email, message },
+    });
+  } catch (error) {
+    return error;
+  }
+}

@@ -54,7 +54,7 @@ export default function RegistrationForm() {
         <input
           className="p-2 py-2 rounded-md focus:outline-none border-2 border-n-11 focus:border-color-5 focus:ring-offset-2 focus:ring-offset-n-7 focus:ring-1 focus:ring-color-5 active:ring-color-5 focus:text-color-5 active:text-color-5 min-w-80 bgopacity-0 bgwhite text-color-5"
           defaultValue=""
-          type="number"
+          type="tel"
           {...register("phone", {
             required: true,
             maxLength: 10,

@@ -84,6 +84,9 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import futuristic from "./futuristic.png";
+import servicespng from "./services.png";
+
 export {
   brainwave,
   check,
@@ -161,4 +164,6 @@ export {
   mongodb,
   expressjs,
   nodejs,
+  futuristic,
+  servicespng,
 };

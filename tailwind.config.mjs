@@ -36,6 +36,11 @@ export default {
           12: "#2E2A41",
           13: "#6C7275",
         },
+        bgColor: {
+          "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
+          "conic-gradient":
+            "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+        },
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],

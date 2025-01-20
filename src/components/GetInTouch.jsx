@@ -26,7 +26,7 @@ export default function GetInTouch() {
 
   return (
     <Section className={"container"}>
-      <h1 className="h1">
+      <h1 className="h1" id="getintouch">
         Get In <span className="text-color-5">Touch</span>
       </h1>
       <p className="tagline">Have a question? Need help?</p>

@@ -28,7 +28,7 @@ export default function Hero() {
             <p className="body-1 max-w-3xl md:mx-0 mx-auto mb-3 text-n-3 lg:mb8">
               Empowering Your Business with Digital Excellence
             </p>
-            <Button href="/register" white>
+            <Button href="#getintouch" white>
               Contact Us
             </Button>
           </div>

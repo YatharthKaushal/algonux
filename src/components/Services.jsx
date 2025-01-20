@@ -7,7 +7,7 @@ import { companyLogos } from "@/constants";
 
 export default function Services() {
   return (
-    <Section>
+    <Section id="services">
       <div className="container text-center md:text-left">
         <h5 className="h2 lg:h1 px-2 font-code text-n-1 uppercase tracking-wider">
           Services we offer to{" "}
@@ -16,10 +16,21 @@ export default function Services() {
         </h5>
 
         <div className="relative z-1 container lg:flex mx-auto">
-          <p className="body-2 text-n-3 md:w-[50%] my-auto">
-            Our diverse services empower your business with seamless website
-            development, AI integration, SaaS solutions, automation, app
-            creation, backend management, and ongoing website maintenance,
+          <p className="body-2 text-n-3 md:w-[60%] my-auto text-2xl">
+            Our diverse services empower your business with seamless{" "}
+            <span className="text-color-5 font-code font-semibold">
+              Website{" "}
+            </span>
+            Development,{" "}
+            <span className="text-color-5 font-code font-semibold">AI </span>
+            Integration,{" "}
+            <span className="text-color-5 font-code font-semibold">SaaS </span>
+            Solutions,{" "}
+            <span className="text-color-5 font-code font-semibold">
+              Automation
+            </span>
+            , <span className="text-color-5 font-code font-semibold">APP </span>
+            Development, backend management, and ongoing website maintenance,
             ensuring scalability, efficiency, and innovation at every step.
           </p>
           <div className=" md:block hidden lg:mlauto xl:w-[38rem] mt4 px-20 mx-auto">

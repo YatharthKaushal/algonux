@@ -8,7 +8,7 @@ import Section from "./Section";
 
 export default function About() {
   return (
-    <Section>
+    <Section id="about">
       <div
         className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] bg-slate300 max-w-6xl mx-auto"
         // style={{

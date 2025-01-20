@@ -16,7 +16,6 @@ export default function NirvanaHero() {
         className="pt-[10rem] -mt-[5rem] mb-6 md:mb-0"
         // crossesOffset="lg:translate-y-[5.25rem]"
         customPaddings
-        id="hero"
       >
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-6 md-mb-20 lgmb-[6.25rem]">
           <h1 className="h1 mb-6">
